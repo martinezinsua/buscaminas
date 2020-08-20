@@ -1,0 +1,23 @@
+.cell{
+    border-radius: 0;
+    font-weight: bold;
+    width: 35px;
+    height: 35px;
+}
+
+.cell:focus,.cell:active, .cell:hover {
+    outline: none !important;
+    box-shadow: none !important;
+    color: initial;
+ }
+
+
+.btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {
+    margin-left: 0px; 
+}
+
+ .btn-panel{
+     color: #ff0000 !important;
+     font-weight: bold;
+     width: inherit;
+ }

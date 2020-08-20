@@ -1,0 +1,13 @@
+{
+  "name": "buscaminas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "deploy": "electron-packager . --overwrite  --platform=win32 --arch=x64  --prune=true --out=release-builds --electron-version=9.2.1"
+  },
+  "author": "Jose Manuel Martínez de la Insua",
+  "license": "ISC"
+}
